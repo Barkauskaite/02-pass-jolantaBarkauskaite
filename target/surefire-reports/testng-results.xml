@@ -1,0 +1,129 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" total="29" passed="29">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Surefire suite" duration-ms="159" started-at="2021-04-01T21:46:12Z" finished-at="2021-04-01T21:46:13Z">
+    <groups>
+    </groups>
+    <test name="Surefire test" duration-ms="159" started-at="2021-04-01T21:46:12Z" finished-at="2021-04-01T21:46:13Z">
+      <class name="com.example.hogskolan.Calculator.CalculatorMethodsTest">
+        <test-method status="PASS" signature="testNaturalLogarithmWithZero()[pri:0, instance:testNaturalLogarithmWithZero(com.example.hogskolan.Calculator.CalculatorMethodsTest)]" name="testNaturalLogarithmWithZero" duration-ms="7" started-at="2021-04-01T23:46:13Z" finished-at="2021-04-01T23:46:13Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testNaturalLogarithmWithZero -->
+        <test-method status="PASS" signature="testDivisionWithPositive()[pri:0, instance:testDivisionWithPositive(com.example.hogskolan.Calculator.CalculatorMethodsTest)]" name="testDivisionWithPositive" duration-ms="1" started-at="2021-04-01T23:46:13Z" finished-at="2021-04-01T23:46:13Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testDivisionWithPositive -->
+        <test-method status="PASS" signature="testMultiplicationWithZero()[pri:0, instance:testMultiplicationWithZero(com.example.hogskolan.Calculator.CalculatorMethodsTest)]" name="testMultiplicationWithZero" duration-ms="1" started-at="2021-04-01T23:46:13Z" finished-at="2021-04-01T23:46:13Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testMultiplicationWithZero -->
+        <test-method status="PASS" signature="testDivisionWithZero()[pri:0, instance:testDivisionWithZero(com.example.hogskolan.Calculator.CalculatorMethodsTest)]" name="testDivisionWithZero" duration-ms="1" started-at="2021-04-01T23:46:13Z" finished-at="2021-04-01T23:46:13Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testDivisionWithZero -->
+        <test-method status="PASS" signature="testDivisionWithNegative()[pri:0, instance:testDivisionWithNegative(com.example.hogskolan.Calculator.CalculatorMethodsTest)]" name="testDivisionWithNegative" duration-ms="1" started-at="2021-04-01T23:46:13Z" finished-at="2021-04-01T23:46:13Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testDivisionWithNegative -->
+        <test-method status="PASS" signature="testRaisToThePowerOfWithZeroExponent()[pri:0, instance:testRaisToThePowerOfWithZeroExponent(com.example.hogskolan.Calculator.CalculatorMethodsTest)]" name="testRaisToThePowerOfWithZeroExponent" duration-ms="1" started-at="2021-04-01T23:46:13Z" finished-at="2021-04-01T23:46:13Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testRaisToThePowerOfWithZeroExponent -->
+        <test-method status="PASS" signature="testSubtractionWithZero()[pri:0, instance:testSubtractionWithZero(com.example.hogskolan.Calculator.CalculatorMethodsTest)]" name="testSubtractionWithZero" duration-ms="1" started-at="2021-04-01T23:46:13Z" finished-at="2021-04-01T23:46:13Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testSubtractionWithZero -->
+        <test-method status="PASS" signature="testRaisToThePowerOf()[pri:0, instance:testRaisToThePowerOf(com.example.hogskolan.Calculator.CalculatorMethodsTest)]" name="testRaisToThePowerOf" duration-ms="1" started-at="2021-04-01T23:46:13Z" finished-at="2021-04-01T23:46:13Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testRaisToThePowerOf -->
+        <test-method status="PASS" signature="testAdditionWithPositive()[pri:0, instance:testAdditionWithPositive(com.example.hogskolan.Calculator.CalculatorMethodsTest)]" name="testAdditionWithPositive" duration-ms="1" started-at="2021-04-01T23:46:13Z" finished-at="2021-04-01T23:46:13Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testAdditionWithPositive -->
+        <test-method status="PASS" signature="testAdditionWithNegative()[pri:0, instance:testAdditionWithNegative(com.example.hogskolan.Calculator.CalculatorMethodsTest)]" name="testAdditionWithNegative" duration-ms="1" started-at="2021-04-01T23:46:13Z" finished-at="2021-04-01T23:46:13Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testAdditionWithNegative -->
+        <test-method status="PASS" signature="testRaisToThePowerOfwithPositive()[pri:0, instance:testRaisToThePowerOfwithPositive(com.example.hogskolan.Calculator.CalculatorMethodsTest)]" name="testRaisToThePowerOfwithPositive" duration-ms="1" started-at="2021-04-01T23:46:13Z" finished-at="2021-04-01T23:46:13Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testRaisToThePowerOfwithPositive -->
+        <test-method status="PASS" signature="testRaisToThePowerOfWithZeroBase()[pri:0, instance:testRaisToThePowerOfWithZeroBase(com.example.hogskolan.Calculator.CalculatorMethodsTest)]" name="testRaisToThePowerOfWithZeroBase" duration-ms="1" started-at="2021-04-01T23:46:13Z" finished-at="2021-04-01T23:46:13Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testRaisToThePowerOfWithZeroBase -->
+        <test-method status="PASS" signature="testRaisToThePowerOfWithNegative()[pri:0, instance:testRaisToThePowerOfWithNegative(com.example.hogskolan.Calculator.CalculatorMethodsTest)]" name="testRaisToThePowerOfWithNegative" duration-ms="0" started-at="2021-04-01T23:46:13Z" finished-at="2021-04-01T23:46:13Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testRaisToThePowerOfWithNegative -->
+        <test-method status="PASS" signature="testNaturalLogarithmWithPositive()[pri:0, instance:testNaturalLogarithmWithPositive(com.example.hogskolan.Calculator.CalculatorMethodsTest)]" name="testNaturalLogarithmWithPositive" duration-ms="1" started-at="2021-04-01T23:46:13Z" finished-at="2021-04-01T23:46:13Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testNaturalLogarithmWithPositive -->
+        <test-method status="PASS" signature="testInverseSinFunctionWithPositive()[pri:0, instance:testInverseSinFunctionWithPositive(com.example.hogskolan.Calculator.CalculatorMethodsTest)]" name="testInverseSinFunctionWithPositive" duration-ms="1" started-at="2021-04-01T23:46:13Z" finished-at="2021-04-01T23:46:13Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testInverseSinFunctionWithPositive -->
+        <test-method status="PASS" signature="testNaturalLogarithmWithNegative()[pri:0, instance:testNaturalLogarithmWithNegative(com.example.hogskolan.Calculator.CalculatorMethodsTest)]" name="testNaturalLogarithmWithNegative" duration-ms="3" started-at="2021-04-01T23:46:13Z" finished-at="2021-04-01T23:46:13Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testNaturalLogarithmWithNegative -->
+        <test-method status="PASS" signature="testSquareWithPositive()[pri:0, instance:testSquareWithPositive(com.example.hogskolan.Calculator.CalculatorMethodsTest)]" name="testSquareWithPositive" duration-ms="1" started-at="2021-04-01T23:46:13Z" finished-at="2021-04-01T23:46:13Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testSquareWithPositive -->
+        <test-method status="PASS" signature="testSubtractionWithPositive()[pri:0, instance:testSubtractionWithPositive(com.example.hogskolan.Calculator.CalculatorMethodsTest)]" name="testSubtractionWithPositive" duration-ms="1" started-at="2021-04-01T23:46:13Z" finished-at="2021-04-01T23:46:13Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testSubtractionWithPositive -->
+        <test-method status="PASS" signature="testInverseSinFunctionWithNegative()[pri:0, instance:testInverseSinFunctionWithNegative(com.example.hogskolan.Calculator.CalculatorMethodsTest)]" name="testInverseSinFunctionWithNegative" duration-ms="1" started-at="2021-04-01T23:46:13Z" finished-at="2021-04-01T23:46:13Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testInverseSinFunctionWithNegative -->
+        <test-method status="PASS" signature="testSinFunctionwithPositive()[pri:0, instance:testSinFunctionwithPositive(com.example.hogskolan.Calculator.CalculatorMethodsTest)]" name="testSinFunctionwithPositive" duration-ms="1" started-at="2021-04-01T23:46:13Z" finished-at="2021-04-01T23:46:13Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testSinFunctionwithPositive -->
+        <test-method status="PASS" signature="testSquareWithNegative()[pri:0, instance:testSquareWithNegative(com.example.hogskolan.Calculator.CalculatorMethodsTest)]" name="testSquareWithNegative" duration-ms="1" started-at="2021-04-01T23:46:13Z" finished-at="2021-04-01T23:46:13Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testSquareWithNegative -->
+        <test-method status="PASS" signature="testSubtractionWithNegative()[pri:0, instance:testSubtractionWithNegative(com.example.hogskolan.Calculator.CalculatorMethodsTest)]" name="testSubtractionWithNegative" duration-ms="0" started-at="2021-04-01T23:46:13Z" finished-at="2021-04-01T23:46:13Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testSubtractionWithNegative -->
+        <test-method status="PASS" signature="testSinFunctionWithNegative()[pri:0, instance:testSinFunctionWithNegative(com.example.hogskolan.Calculator.CalculatorMethodsTest)]" name="testSinFunctionWithNegative" duration-ms="1" started-at="2021-04-01T23:46:13Z" finished-at="2021-04-01T23:46:13Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testSinFunctionWithNegative -->
+        <test-method status="PASS" signature="testMultiplicationWithPositive()[pri:0, instance:testMultiplicationWithPositive(com.example.hogskolan.Calculator.CalculatorMethodsTest)]" name="testMultiplicationWithPositive" duration-ms="1" started-at="2021-04-01T23:46:13Z" finished-at="2021-04-01T23:46:13Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testMultiplicationWithPositive -->
+        <test-method status="PASS" signature="testSinFunctionWithZero()[pri:0, instance:testSinFunctionWithZero(com.example.hogskolan.Calculator.CalculatorMethodsTest)]" name="testSinFunctionWithZero" duration-ms="1" started-at="2021-04-01T23:46:13Z" finished-at="2021-04-01T23:46:13Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testSinFunctionWithZero -->
+        <test-method status="PASS" signature="testMultiplicationWithNegative()[pri:0, instance:testMultiplicationWithNegative(com.example.hogskolan.Calculator.CalculatorMethodsTest)]" name="testMultiplicationWithNegative" duration-ms="1" started-at="2021-04-01T23:46:13Z" finished-at="2021-04-01T23:46:13Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testMultiplicationWithNegative -->
+        <test-method status="PASS" signature="testAdditionWithZero()[pri:0, instance:testAdditionWithZero(com.example.hogskolan.Calculator.CalculatorMethodsTest)]" name="testAdditionWithZero" duration-ms="1" started-at="2021-04-01T23:46:13Z" finished-at="2021-04-01T23:46:13Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testAdditionWithZero -->
+        <test-method status="PASS" signature="testInverseSinFunctionWithZero()[pri:0, instance:testInverseSinFunctionWithZero(com.example.hogskolan.Calculator.CalculatorMethodsTest)]" name="testInverseSinFunctionWithZero" duration-ms="1" started-at="2021-04-01T23:46:13Z" finished-at="2021-04-01T23:46:13Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testInverseSinFunctionWithZero -->
+        <test-method status="PASS" signature="testSquareWithZero()[pri:0, instance:testSquareWithZero(com.example.hogskolan.Calculator.CalculatorMethodsTest)]" name="testSquareWithZero" duration-ms="1" started-at="2021-04-01T23:46:13Z" finished-at="2021-04-01T23:46:13Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testSquareWithZero -->
+      </class> <!-- com.example.hogskolan.Calculator.CalculatorMethodsTest -->
+    </test> <!-- Surefire test -->
+  </suite> <!-- Surefire suite -->
+</testng-results>

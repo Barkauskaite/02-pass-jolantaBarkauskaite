@@ -1,0 +1,224 @@
+<html>
+<head>
+<title>TestNG:  Surefire test</title>
+<link href="../testng.css" rel="stylesheet" type="text/css" />
+<link href="../my-testng.css" rel="stylesheet" type="text/css" />
+
+<style type="text/css">
+.log { display: none;} 
+.stack-trace { display: none;} 
+</style>
+<script type="text/javascript">
+<!--
+function flip(e) {
+  current = e.style.display;
+  if (current == 'block') {
+    e.style.display = 'none';
+    return 0;
+  }
+  else {
+    e.style.display = 'block';
+    return 1;
+  }
+}
+
+function toggleBox(szDivId, elem, msg1, msg2)
+{
+  var res = -1;  if (document.getElementById) {
+    res = flip(document.getElementById(szDivId));
+  }
+  else if (document.all) {
+    // this is the way old msie versions work
+    res = flip(document.all[szDivId]);
+  }
+  if(elem) {
+    if(res == 0) elem.innerHTML = msg1; else elem.innerHTML = msg2;
+  }
+
+}
+
+function toggleAllBoxes() {
+  if (document.getElementsByTagName) {
+    d = document.getElementsByTagName('div');
+    for (i = 0; i < d.length; i++) {
+      if (d[i].className == 'log') {
+        flip(d[i]);
+      }
+    }
+  }
+}
+
+// -->
+</script>
+
+</head>
+<body>
+<h2 align='center'>Surefire test</h2><table border='1' align="center">
+<tr>
+<td>Tests passed/Failed/Skipped:</td><td>29/0/0</td>
+</tr><tr>
+<td>Started on:</td><td>Thu Apr 01 23:46:12 CEST 2021</td>
+</tr>
+<tr><td>Total time:</td><td>0 seconds (159 ms)</td>
+</tr><tr>
+<td>Included groups:</td><td></td>
+</tr><tr>
+<td>Excluded groups:</td><td></td>
+</tr>
+</table><p/>
+<small><i>(Hover the method name to see the test class name)</i></small><p/>
+<table width='100%' border='1' class='invocation-passed'>
+<tr><td colspan='4' align='center'><b>PASSED TESTS</b></td></tr>
+<tr><td><b>Test method</b></td>
+<td width="30%"><b>Exception</b></td>
+<td width="10%"><b>Time (seconds)</b></td>
+<td><b>Instance</b></td>
+</tr>
+<tr>
+<td title='com.example.hogskolan.Calculator.CalculatorMethodsTest.testAdditionWithNegative()'><b>testAdditionWithNegative</b><br>Test class: com.example.hogskolan.Calculator.CalculatorMethodsTest</td>
+<td></td>
+<td>0</td>
+<td>testAdditionWithNegative(com.example.hogskolan.Calculator.CalculatorMethodsTest)</td></tr>
+<tr>
+<td title='com.example.hogskolan.Calculator.CalculatorMethodsTest.testAdditionWithPositive()'><b>testAdditionWithPositive</b><br>Test class: com.example.hogskolan.Calculator.CalculatorMethodsTest</td>
+<td></td>
+<td>0</td>
+<td>testAdditionWithPositive(com.example.hogskolan.Calculator.CalculatorMethodsTest)</td></tr>
+<tr>
+<td title='com.example.hogskolan.Calculator.CalculatorMethodsTest.testAdditionWithZero()'><b>testAdditionWithZero</b><br>Test class: com.example.hogskolan.Calculator.CalculatorMethodsTest</td>
+<td></td>
+<td>0</td>
+<td>testAdditionWithZero(com.example.hogskolan.Calculator.CalculatorMethodsTest)</td></tr>
+<tr>
+<td title='com.example.hogskolan.Calculator.CalculatorMethodsTest.testDivisionWithNegative()'><b>testDivisionWithNegative</b><br>Test class: com.example.hogskolan.Calculator.CalculatorMethodsTest</td>
+<td></td>
+<td>0</td>
+<td>testDivisionWithNegative(com.example.hogskolan.Calculator.CalculatorMethodsTest)</td></tr>
+<tr>
+<td title='com.example.hogskolan.Calculator.CalculatorMethodsTest.testDivisionWithPositive()'><b>testDivisionWithPositive</b><br>Test class: com.example.hogskolan.Calculator.CalculatorMethodsTest</td>
+<td></td>
+<td>0</td>
+<td>testDivisionWithPositive(com.example.hogskolan.Calculator.CalculatorMethodsTest)</td></tr>
+<tr>
+<td title='com.example.hogskolan.Calculator.CalculatorMethodsTest.testDivisionWithZero()'><b>testDivisionWithZero</b><br>Test class: com.example.hogskolan.Calculator.CalculatorMethodsTest</td>
+<td></td>
+<td>0</td>
+<td>testDivisionWithZero(com.example.hogskolan.Calculator.CalculatorMethodsTest)</td></tr>
+<tr>
+<td title='com.example.hogskolan.Calculator.CalculatorMethodsTest.testInverseSinFunctionWithNegative()'><b>testInverseSinFunctionWithNegative</b><br>Test class: com.example.hogskolan.Calculator.CalculatorMethodsTest</td>
+<td></td>
+<td>0</td>
+<td>testInverseSinFunctionWithNegative(com.example.hogskolan.Calculator.CalculatorMethodsTest)</td></tr>
+<tr>
+<td title='com.example.hogskolan.Calculator.CalculatorMethodsTest.testInverseSinFunctionWithPositive()'><b>testInverseSinFunctionWithPositive</b><br>Test class: com.example.hogskolan.Calculator.CalculatorMethodsTest</td>
+<td></td>
+<td>0</td>
+<td>testInverseSinFunctionWithPositive(com.example.hogskolan.Calculator.CalculatorMethodsTest)</td></tr>
+<tr>
+<td title='com.example.hogskolan.Calculator.CalculatorMethodsTest.testInverseSinFunctionWithZero()'><b>testInverseSinFunctionWithZero</b><br>Test class: com.example.hogskolan.Calculator.CalculatorMethodsTest</td>
+<td></td>
+<td>0</td>
+<td>testInverseSinFunctionWithZero(com.example.hogskolan.Calculator.CalculatorMethodsTest)</td></tr>
+<tr>
+<td title='com.example.hogskolan.Calculator.CalculatorMethodsTest.testMultiplicationWithNegative()'><b>testMultiplicationWithNegative</b><br>Test class: com.example.hogskolan.Calculator.CalculatorMethodsTest</td>
+<td></td>
+<td>0</td>
+<td>testMultiplicationWithNegative(com.example.hogskolan.Calculator.CalculatorMethodsTest)</td></tr>
+<tr>
+<td title='com.example.hogskolan.Calculator.CalculatorMethodsTest.testMultiplicationWithPositive()'><b>testMultiplicationWithPositive</b><br>Test class: com.example.hogskolan.Calculator.CalculatorMethodsTest</td>
+<td></td>
+<td>0</td>
+<td>testMultiplicationWithPositive(com.example.hogskolan.Calculator.CalculatorMethodsTest)</td></tr>
+<tr>
+<td title='com.example.hogskolan.Calculator.CalculatorMethodsTest.testMultiplicationWithZero()'><b>testMultiplicationWithZero</b><br>Test class: com.example.hogskolan.Calculator.CalculatorMethodsTest</td>
+<td></td>
+<td>0</td>
+<td>testMultiplicationWithZero(com.example.hogskolan.Calculator.CalculatorMethodsTest)</td></tr>
+<tr>
+<td title='com.example.hogskolan.Calculator.CalculatorMethodsTest.testNaturalLogarithmWithNegative()'><b>testNaturalLogarithmWithNegative</b><br>Test class: com.example.hogskolan.Calculator.CalculatorMethodsTest</td>
+<td></td>
+<td>0</td>
+<td>testNaturalLogarithmWithNegative(com.example.hogskolan.Calculator.CalculatorMethodsTest)</td></tr>
+<tr>
+<td title='com.example.hogskolan.Calculator.CalculatorMethodsTest.testNaturalLogarithmWithPositive()'><b>testNaturalLogarithmWithPositive</b><br>Test class: com.example.hogskolan.Calculator.CalculatorMethodsTest</td>
+<td></td>
+<td>0</td>
+<td>testNaturalLogarithmWithPositive(com.example.hogskolan.Calculator.CalculatorMethodsTest)</td></tr>
+<tr>
+<td title='com.example.hogskolan.Calculator.CalculatorMethodsTest.testNaturalLogarithmWithZero()'><b>testNaturalLogarithmWithZero</b><br>Test class: com.example.hogskolan.Calculator.CalculatorMethodsTest</td>
+<td></td>
+<td>0</td>
+<td>testNaturalLogarithmWithZero(com.example.hogskolan.Calculator.CalculatorMethodsTest)</td></tr>
+<tr>
+<td title='com.example.hogskolan.Calculator.CalculatorMethodsTest.testRaisToThePowerOf()'><b>testRaisToThePowerOf</b><br>Test class: com.example.hogskolan.Calculator.CalculatorMethodsTest</td>
+<td></td>
+<td>0</td>
+<td>testRaisToThePowerOf(com.example.hogskolan.Calculator.CalculatorMethodsTest)</td></tr>
+<tr>
+<td title='com.example.hogskolan.Calculator.CalculatorMethodsTest.testRaisToThePowerOfWithNegative()'><b>testRaisToThePowerOfWithNegative</b><br>Test class: com.example.hogskolan.Calculator.CalculatorMethodsTest</td>
+<td></td>
+<td>0</td>
+<td>testRaisToThePowerOfWithNegative(com.example.hogskolan.Calculator.CalculatorMethodsTest)</td></tr>
+<tr>
+<td title='com.example.hogskolan.Calculator.CalculatorMethodsTest.testRaisToThePowerOfWithZeroBase()'><b>testRaisToThePowerOfWithZeroBase</b><br>Test class: com.example.hogskolan.Calculator.CalculatorMethodsTest</td>
+<td></td>
+<td>0</td>
+<td>testRaisToThePowerOfWithZeroBase(com.example.hogskolan.Calculator.CalculatorMethodsTest)</td></tr>
+<tr>
+<td title='com.example.hogskolan.Calculator.CalculatorMethodsTest.testRaisToThePowerOfWithZeroExponent()'><b>testRaisToThePowerOfWithZeroExponent</b><br>Test class: com.example.hogskolan.Calculator.CalculatorMethodsTest</td>
+<td></td>
+<td>0</td>
+<td>testRaisToThePowerOfWithZeroExponent(com.example.hogskolan.Calculator.CalculatorMethodsTest)</td></tr>
+<tr>
+<td title='com.example.hogskolan.Calculator.CalculatorMethodsTest.testRaisToThePowerOfwithPositive()'><b>testRaisToThePowerOfwithPositive</b><br>Test class: com.example.hogskolan.Calculator.CalculatorMethodsTest</td>
+<td></td>
+<td>0</td>
+<td>testRaisToThePowerOfwithPositive(com.example.hogskolan.Calculator.CalculatorMethodsTest)</td></tr>
+<tr>
+<td title='com.example.hogskolan.Calculator.CalculatorMethodsTest.testSinFunctionWithNegative()'><b>testSinFunctionWithNegative</b><br>Test class: com.example.hogskolan.Calculator.CalculatorMethodsTest</td>
+<td></td>
+<td>0</td>
+<td>testSinFunctionWithNegative(com.example.hogskolan.Calculator.CalculatorMethodsTest)</td></tr>
+<tr>
+<td title='com.example.hogskolan.Calculator.CalculatorMethodsTest.testSinFunctionWithZero()'><b>testSinFunctionWithZero</b><br>Test class: com.example.hogskolan.Calculator.CalculatorMethodsTest</td>
+<td></td>
+<td>0</td>
+<td>testSinFunctionWithZero(com.example.hogskolan.Calculator.CalculatorMethodsTest)</td></tr>
+<tr>
+<td title='com.example.hogskolan.Calculator.CalculatorMethodsTest.testSinFunctionwithPositive()'><b>testSinFunctionwithPositive</b><br>Test class: com.example.hogskolan.Calculator.CalculatorMethodsTest</td>
+<td></td>
+<td>0</td>
+<td>testSinFunctionwithPositive(com.example.hogskolan.Calculator.CalculatorMethodsTest)</td></tr>
+<tr>
+<td title='com.example.hogskolan.Calculator.CalculatorMethodsTest.testSquareWithNegative()'><b>testSquareWithNegative</b><br>Test class: com.example.hogskolan.Calculator.CalculatorMethodsTest</td>
+<td></td>
+<td>0</td>
+<td>testSquareWithNegative(com.example.hogskolan.Calculator.CalculatorMethodsTest)</td></tr>
+<tr>
+<td title='com.example.hogskolan.Calculator.CalculatorMethodsTest.testSquareWithPositive()'><b>testSquareWithPositive</b><br>Test class: com.example.hogskolan.Calculator.CalculatorMethodsTest</td>
+<td></td>
+<td>0</td>
+<td>testSquareWithPositive(com.example.hogskolan.Calculator.CalculatorMethodsTest)</td></tr>
+<tr>
+<td title='com.example.hogskolan.Calculator.CalculatorMethodsTest.testSquareWithZero()'><b>testSquareWithZero</b><br>Test class: com.example.hogskolan.Calculator.CalculatorMethodsTest</td>
+<td></td>
+<td>0</td>
+<td>testSquareWithZero(com.example.hogskolan.Calculator.CalculatorMethodsTest)</td></tr>
+<tr>
+<td title='com.example.hogskolan.Calculator.CalculatorMethodsTest.testSubtractionWithNegative()'><b>testSubtractionWithNegative</b><br>Test class: com.example.hogskolan.Calculator.CalculatorMethodsTest</td>
+<td></td>
+<td>0</td>
+<td>testSubtractionWithNegative(com.example.hogskolan.Calculator.CalculatorMethodsTest)</td></tr>
+<tr>
+<td title='com.example.hogskolan.Calculator.CalculatorMethodsTest.testSubtractionWithPositive()'><b>testSubtractionWithPositive</b><br>Test class: com.example.hogskolan.Calculator.CalculatorMethodsTest</td>
+<td></td>
+<td>0</td>
+<td>testSubtractionWithPositive(com.example.hogskolan.Calculator.CalculatorMethodsTest)</td></tr>
+<tr>
+<td title='com.example.hogskolan.Calculator.CalculatorMethodsTest.testSubtractionWithZero()'><b>testSubtractionWithZero</b><br>Test class: com.example.hogskolan.Calculator.CalculatorMethodsTest</td>
+<td></td>
+<td>0</td>
+<td>testSubtractionWithZero(com.example.hogskolan.Calculator.CalculatorMethodsTest)</td></tr>
+</table><p>
+</body>
+</html>
