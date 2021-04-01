@@ -1,10 +1,9 @@
 package com.example.hogskolan.Calculator;
 
 import com.example.hogskolan.Interfaces.AdvancedOperations;
-
 import java.lang.Math. *;
 
-public class AdvancedCalculator implements AdvancedOperations {
+public class AdvancedCalculator extends BasicCalculator implements AdvancedOperations {
 
 	//this is operation of square by simply multiplying value by itself 
 	public double square(double number) {
@@ -56,3 +55,5 @@ public class AdvancedCalculator implements AdvancedOperations {
 	}
 
 }
+
+

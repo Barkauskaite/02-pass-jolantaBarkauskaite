@@ -23,7 +23,7 @@ public class BasicCalculator implements BasicOperations {
 	}
 
 	@Override
-	public double devision(double a, double b) {
+	public double division(double a, double b) {
 		if( b==0.0 ) {
 			System.out.println("You cannot divide by zero.");
 			return -0.123456789;
